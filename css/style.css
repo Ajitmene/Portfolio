@@ -1991,3 +1991,56 @@ body.light-mode .social-links a:hover{
     color:#FFFFFF;
 }
 
+/* =========================================================
+   COLORFUL SKILL ICONS
+========================================================= */
+
+/* Machine Learning - Purple */
+.tech-icon.machine-learning {
+  color: #a855f7;
+  background: rgba(168, 85, 247, 0.12);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.15);
+}
+
+
+/* Deep Learning - Orange */
+.tech-icon.deep-learning {
+  color: #ff6f00;
+  background: rgba(255, 111, 0, 0.12);
+  border: 1px solid rgba(255, 111, 0, 0.25);
+  box-shadow: 0 0 20px rgba(255, 111, 0, 0.15);
+}
+
+
+/* Artificial Intelligence - Blue */
+.tech-icon.artificial-intelligence {
+  color: #00a8ff;
+  background: rgba(0, 168, 255, 0.12);
+  border: 1px solid rgba(0, 168, 255, 0.25);
+  box-shadow: 0 0 20px rgba(0, 168, 255, 0.15);
+}
+
+
+/* FastAPI - Green */
+.tech-icon.fastapi {
+  color: #009688;
+  background: rgba(0, 150, 136, 0.12);
+  border: 1px solid rgba(0, 150, 136, 0.25);
+  box-shadow: 0 0 20px rgba(0, 150, 136, 0.15);
+}
+
+
+/* =========================================================
+   ICON HOVER EFFECT
+========================================================= */
+
+.tech-card:hover .tech-icon {
+  transform: scale(1.12) rotate(3deg);
+}
+
+
+/* Smooth transition */
+.tech-icon {
+  transition: all 0.3s ease;
+}
