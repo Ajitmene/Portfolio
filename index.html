@@ -7,7 +7,9 @@
 
     <link rel="icon" type="image/png" href="fav.png" />
 
-    <title>Ajit Mene | Portfolio</title>
+    <title>Ajit Mene | Python Developer &amp; Data Analyst</title>
+
+    <link rel="canonical" href="https://ajitmene.github.io/Portfolio/" />
 
     <!-- Bootstrap -->
 
@@ -38,26 +40,45 @@
 
     <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/enhancements.css" />
 
     <meta
       name="description"
-      content="Ajit Mene - Python Developer, Data Analyst, Django Developer Portfolio"
+      content="Ajit Mene is a Python Developer and Data Analyst specializing in Python, SQL, Machine Learning, Power BI, Tableau and Django."
     />
 
     <meta
       name="keywords"
-      content="Python, Data Analyst, Django, Portfolio, SQL, Power BI"
+      content="Python, Data Analyst, Django, Portfolio, SQL, Power BI, Machine Learning, Tableau"
     />
 
     <meta name="author" content="Ajit Mene" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ajit Mene | Python Developer & Data Analyst" />
+    <meta
+      property="og:description"
+      content="Python Developer and Data Analyst specializing in Python, SQL, Machine Learning, Power BI, Tableau and Django."
+    />
+    <meta property="og:url" content="https://ajitmene.github.io/Portfolio/" />
+    <meta property="og:image" content="assets/images/my.jpeg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Ajit Mene | Python Developer & Data Analyst" />
+    <meta
+      name="twitter:description"
+      content="Python Developer and Data Analyst specializing in Python, SQL, Machine Learning, Power BI, Tableau and Django."
+    />
   </head>
 
   <body>
-    <div id="progress-bar"></div>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div id="progress-bar" role="progressbar" aria-hidden="true"></div>
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Primary">
       <div class="container">
         <a class="navbar-brand fw-bold" href="#"> AJIT MENE </a>
 
@@ -110,6 +131,7 @@
 
     <!-- Hero -->
 
+    <main id="main-content">
     <section class="hero">
       <div class="container">
         <div class="row align-items-center">
@@ -123,39 +145,70 @@
             </h2>
 
             <p>
-              Information Technology graduate passionate about Python, Data
-              Analytics, Machine Learning, and Web Development. I enjoy building
-              real-world applications and transforming data into useful
-              insights.
+              I build data-driven applications, machine learning solutions,
+              interactive dashboards, and backend systems using Python, SQL,
+              Django, and modern data technologies.
             </p>
 
-            <div class="mt-4">
+            <div class="mt-4 hero-cta">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                View My Projects
+              </a>
+
               <a
                 href="assets/resume/MENE_AJIT_ANKUSH.pdf"
-                class="btn btn-primary btn-lg"
+                class="btn btn-outline-light btn-lg ms-2"
                 download
               >
                 Download Resume
               </a>
 
-              <a href="#contact" class="btn btn-outline-light btn-lg ms-2">
-                Contact Me
+              <a
+                href="https://github.com/Ajitmene"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-outline-light btn-lg ms-2"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/ajit-mene-566a18363/"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-outline-light btn-lg ms-2"
+              >
+                <i class="fab fa-linkedin"></i> LinkedIn
               </a>
             </div>
 
-            <div class="social mt-5">
-              <a href="https://github.com/Ajitmene" target="_blank">
+            <div class="tech-strip mt-4" aria-label="Core technologies">
+              <span>Python</span>
+              <span aria-hidden="true">•</span>
+              <span>SQL</span>
+              <span aria-hidden="true">•</span>
+              <span>Machine Learning</span>
+              <span aria-hidden="true">•</span>
+              <span>Power BI</span>
+              <span aria-hidden="true">•</span>
+              <span>Django</span>
+            </div>
+
+            <div class="social mt-4">
+              <a href="https://github.com/Ajitmene" target="_blank" rel="noopener" aria-label="GitHub profile">
                 <i class="fab fa-github"></i>
               </a>
 
               <a
                 href="https://www.linkedin.com/in/ajit-mene-566a18363/"
                 target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn profile"
               >
                 <i class="fab fa-linkedin"></i>
               </a>
 
-              <a href="mailto:ajitmene04@gmail.com">
+              <a href="mailto:ajitmene04@gmail.com" aria-label="Send an email">
                 <i class="fas fa-envelope"></i>
               </a>
             </div>
@@ -293,46 +346,81 @@
 
     <section class="services py-5">
       <div class="container">
-        <div class="text-center mb-5">
-          <h2>What I Do</h2>
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h5 class="section-title">WHAT I BUILD</h5>
+          <h2 class="fw-bold">What I Build</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="service-card">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card" data-aos="fade-up">
               <i class="fas fa-code"></i>
 
               <h4>Python Development</h4>
 
               <p>
-                Develop Python applications using clean, efficient and reusable
-                code.
+                Build backend applications, automation tools, APIs, and
+                data-driven applications using Python and Django.
               </p>
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="service-card">
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
               <i class="fas fa-chart-line"></i>
 
               <h4>Data Analytics</h4>
 
-              <p>Analyze business data and create interactive dashboards.</p>
+              <p>
+                Transform raw business data into meaningful insights using
+                SQL, Excel, Power BI, Tableau, Pandas, and NumPy.
+              </p>
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="service-card">
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
               <i class="fas fa-brain"></i>
 
               <h4>Machine Learning</h4>
 
               <p>
-                Build intelligent applications using Machine Learning
-                techniques.
+                Build classification and prediction models using Scikit-learn
+                and deploy ML applications using Streamlit.
               </p>
             </div>
           </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+              <i class="fas fa-display"></i>
+
+              <h4>Data Applications</h4>
+
+              <p>
+                Build interactive dashboards and applications that turn data
+                and machine learning models into usable products.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="currently-learning py-5">
+      <div class="container">
+        <div class="text-center mb-4" data-aos="fade-up">
+          <h5 class="section-title">ALWAYS GROWING</h5>
+          <h2 class="fw-bold">Currently Learning</h2>
+        </div>
+        <div class="learning-tags" data-aos="fade-up">
+          <span>Advanced Python</span>
+          <span>REST APIs</span>
+          <span>FastAPI</span>
+          <span>Django REST Framework</span>
+          <span>Generative AI</span>
+          <span>LLMs</span>
+          <span>RAG</span>
         </div>
       </div>
     </section>
@@ -607,341 +695,28 @@
             development, data analytics, and machine learning.
           </p>
         </div>
-      </div>
 
-      <div class="featured-project" data-aos="zoom-in">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img
-              src="assets/images/Churn_predictor.png"
-              class="img-fluid rounded project-image"
-              alt="Customer Churn Analyzer"
-            />
-          </div>
+        <!-- Featured project (rendered by js/main.js from data/projects.json) -->
+        <div id="featuredProjectSlot" aria-live="polite"></div>
 
-          <div class="col-lg-6">
-            <span class="featured-badge"> ⭐ Featured Project </span>
+        <!-- Filters -->
+        <div id="projectFilters" class="project-filters mt-5 mb-4" role="tablist" aria-label="Filter projects by category"></div>
 
-            <h2 class="mt-3">
-              Customer Churn Analysis & Prediction | Machine Learning &
-              Streamlit
-            </h2>
-
-            <p>
-              Developed a machine learning application that predicts customer
-              churn using customer behavior and subscription data. Built an
-              interactive Streamlit dashboard to generate real-time predictions
-              and business insights
-            </p>
-
-            <div class="tech-stack">
-              <span>Python</span>
-
-              <span>scikit-learn</span>
-
-              <span>Streamlit</span>
-
-              <span>Git/GitHub</span>
-            </div>
-
-            <div class="mt-4">
-              <a
-                href="https://github.com/Ajitmene"
-                target="_blank"
-                class="btn btn-primary"
-              >
-                <i class="fab fa-github"></i>
-
-                GitHub
-              </a>
-
-              <a
-                href="https://churn-predictor-aiml.streamlit.app/"
-                class="btn btn-outline-info ms-2"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="featured-project" data-aos="zoom-in">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img
-              src="assets/images/e_commerse.png"
-              class="img-fluid rounded project-image"
-              alt="E_commerse"
-            />
-          </div>
-
-          <div class="col-lg-6">
-            <span class="featured-badge"> ⭐ Featured Project </span>
-
-            <h2 class="mt-3">E-Commerce Sales Dashboard | Power BI</h2>
-
-            <p>
-              Developed an interactive Power BI dashboard to analyze e-commerce
-              sales performance, customer behavior, product profitability, and
-              regional trends. Built dynamic KPIs and visualizations to support
-              data-driven business decisions.
-            </p>
-
-            <div class="tech-stack">
-              <span>Power BI</span>
-
-              <span>Power Query</span>
-
-              <span>DAX</span>
-
-              <span>Excel/CSV</span>
-
-              <span>Data Modeling</span>
-            </div>
-
-            <div class="mt-4">
-              <a
-                href="https://github.com/Ajitmene"
-                target="_blank"
-                class="btn btn-primary"
-              >
-                <i class="fab fa-github"></i>
-
-                GitHub
-              </a>
-
-              <a
-                href="https://github.com/Ajitmene"
-                class="btn btn-outline-info ms-2"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="featured-project" data-aos="zoom-in">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img
-              src="assets/images/D_mart.png"
-              class="img-fluid rounded project-image"
-              alt="D_mart"
-            />
-          </div>
-
-          <div class="col-lg-6">
-            <span class="featured-badge"> ⭐ Featured Project </span>
-
-            <h2 class="mt-3">D-Mart Sales Analysis Dashboard | Tableau</h2>
-
-            <p>
-              Created an interactive Tableau dashboard to analyze D-Mart sales
-              performance, profitability, customer trends, and product insights.
-              Designed visual reports to help understand business growth and
-              improve decision-making.
-            </p>
-
-            <div class="tech-stack">
-              <span>Tableau</span>
-
-              <span>Excel/CSV</span>
-
-              <span>Data Cleaning</span>
-
-              <span>Data Visualization</span>
-            </div>
-
-            <div class="mt-4">
-              <a
-                href="https://github.com/Ajitmene"
-                target="_blank"
-                class="btn btn-primary"
-              >
-                <i class="fab fa-github"></i>
-
-                GitHub
-              </a>
-
-              <a
-                href="https://github.com/Ajitmene/Dmart_Data_Analatics"
-                class="btn btn-outline-info ms-2"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="featured-project" data-aos="zoom-in">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img
-              src="assets/images/crop.png"
-              class="img-fluid rounded project-image"
-              alt="Crop Analyzer"
-            />
-          </div>
-
-          <div class="col-lg-6">
-            <span class="featured-badge"> ⭐ Featured Project </span>
-
-            <h2 class="mt-3">
-              Drought-Smart Crop Analyzer | Machine Learning & Streamlit
-            </h2>
-
-            <p>
-              Developed an AI-powered crop recommendation application that
-              analyzes soil and weather conditions to suggest suitable crops and
-              provide farming insights. Integrated machine learning and
-              real-time weather data to support smart agricultural decisions.
-            </p>
-
-            <div class="tech-stack">
-              <span>Python</span>
-
-              <span>Scikit-learn</span>
-
-              <span>Open-Meteo API</span>
-
-              <span>NASA POWER API</span>
-
-              <span>Git/GitHub</span>
-            </div>
-
-            <div class="mt-4">
-              <a
-                href="https://github.com/Ajitmene"
-                target="_blank"
-                class="btn btn-primary"
-              >
-                <i class="fab fa-github"></i>
-
-                GitHub
-              </a>
-
-              <a
-                href="https://agricultural-and-farming-agent.streamlit.app/"
-                class="btn btn-outline-info ms-2"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="featured-project" data-aos="zoom-in">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img
-              src="assets/images/Binkit.png"
-              class="img-fluid rounded project-image"
-              alt="Blinkit Analyzer"
-            />
-          </div>
-
-          <div class="col-lg-6">
-            <span class="featured-badge"> ⭐ Featured Project </span>
-
-            <h2 class="mt-3">
-              Blinkit Sales Analysis Dashboard | Power BI
-            </h2>
-
-            <p>
-              The Blinkit Sales Analysis Dashboard is an interactive Power BI project that analyzes sales performance, customer preferences, and product trends using Blinkit's retail dataset. The dashboard provides actionable business insights through dynamic visualizations and KPIs, helping stakeholders monitor performance and make data-driven decisions.
-            </p>
-
-            <div class="tech-stack">
-              <span>Power BI</span>
-
-              <span>Power Query</span>
-
-              <span>DAX</span>
-
-              <span>Excel/CSV</span>
-
-              <span>Data Modeling</span>
-            </div>
-
-            <div class="mt-4">
-              <a
-                href="https://github.com/Ajitmene"
-                target="_blank"
-                class="btn btn-primary"
-              >
-                <i class="fab fa-github"></i>
-
-                GitHub
-              </a>
-
-              <a
-                href="https://github.com/Ajitmene/Blinkit_Sales_Analaysis"
-                class="btn btn-outline-info ms-2"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="featured-project" data-aos="zoom-in">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img
-              src="assets/images/toll.jpg"
-              class="img-fluid rounded project-image"
-              alt="Toll Booth Management System"
-            />
-          </div>
-
-          <div class="col-lg-6">
-            <span class="featured-badge"> ⭐ Featured Project </span>
-
-            <h2 class="mt-3">
-              Toll Booth Management System | Python and JSON
-            </h2>
-
-            <p>
-              The Toll Booth Management System is a Core Python application developed to automate toll collection and vehicle management. It records vehicle details, calculates toll charges based on vehicle type, generates receipts, and maintains transaction records using JSON-based file storage.
-            </p>
-
-            <div class="tech-stack">
-              <span>Python</span>
-
-              <span>JSON</span>
-
-              <span>File Handling</span>
-
-              <span>OOP</span>
-            </div>
-
-            <div class="mt-4">
-              <a
-                href="https://github.com/Ajitmene"
-                target="_blank"
-                class="btn btn-primary"
-              >
-                <i class="fab fa-github"></i>
-
-                GitHub
-              </a>
-
-              <a
-                href="https://github.com/Ajitmene/Toll_Booth_Collection_System"
-                class="btn btn-outline-info ms-2"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
+        <!-- Project grid (rendered by js/main.js from data/projects.json) -->
+        <div id="projectsGrid" class="row g-4" aria-live="polite"></div>
       </div>
     </section>
+
+    <!-- Project details modal -->
+    <div id="projectModal" class="project-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="projectModalTitle">
+      <div class="project-modal-backdrop" data-close-modal></div>
+      <div class="project-modal-dialog">
+        <button type="button" id="projectModalClose" class="project-modal-close" data-close-modal aria-label="Close project details">
+          <i class="fas fa-xmark"></i>
+        </button>
+        <div id="projectModalBody"></div>
+      </div>
+    </div>
 
     <section id="experience" class="experience py-5">
       <div class="container">
@@ -1050,6 +825,35 @@
       </div>
     </section>
 
+    <section id="certifications" class="certifications py-5">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h5 class="section-title">CERTIFICATIONS</h5>
+          <h2 class="fw-bold">Certifications &amp; Training</h2>
+        </div>
+        <div id="certificationsList" class="certifications-list"></div>
+      </div>
+    </section>
+
+    <section class="github-cta py-5">
+      <div class="container text-center" data-aos="fade-up">
+        <h5 class="section-title">GITHUB</h5>
+        <h2 class="fw-bold">Check Out My Code</h2>
+        <p class="text-secondary">
+          Browse my repositories, contributions, and open-source work directly
+          on GitHub.
+        </p>
+        <a
+          href="https://github.com/Ajitmene"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary btn-lg"
+        >
+          <i class="fab fa-github"></i> View GitHub Profile
+        </a>
+      </div>
+    </section>
+
     <section id="contact" class="contact py-5">
       <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
@@ -1103,40 +907,54 @@
           <!-- Contact Form -->
 
           <div class="col-lg-7">
-            <form id="contactForm">
+            <form id="contactForm" novalidate>
+              <label for="contactName" class="visually-hidden">Your Name</label>
               <input
                 type="text"
+                id="contactName"
+                name="name"
                 class="form-control mb-3"
                 placeholder="Your Name"
                 required
               />
 
+              <label for="contactEmail" class="visually-hidden">Your Email</label>
               <input
                 type="email"
+                id="contactEmail"
+                name="email"
                 class="form-control mb-3"
                 placeholder="Your Email"
                 required
               />
 
+              <label for="contactSubject" class="visually-hidden">Subject</label>
               <input
                 type="text"
+                id="contactSubject"
+                name="subject"
                 class="form-control mb-3"
                 placeholder="Subject"
                 required
               />
 
+              <label for="contactMessage" class="visually-hidden">Your Message</label>
               <textarea
+                id="contactMessage"
+                name="message"
                 class="form-control mb-3"
                 rows="6"
                 placeholder="Your Message"
                 required
               ></textarea>
 
-              <button class="btn btn-primary btn-lg">
+              <button type="submit" class="btn btn-primary btn-lg">
                 <i class="fas fa-paper-plane"></i>
 
                 Send Message
               </button>
+
+              <p id="contactStatus" class="contact-status" role="status" aria-live="polite"></p>
             </form>
           </div>
         </div>
@@ -1145,28 +963,44 @@
 
     <section class="social-links py-4">
       <div class="container text-center">
-        <a href="https://github.com/Ajitmene" target="_blank">
+        <a href="https://github.com/Ajitmene" target="_blank" rel="noopener" aria-label="GitHub profile">
           <i class="fab fa-github"></i>
         </a>
 
         <a
           href="https://www.linkedin.com/in/ajit-mene-566a18363/"
           target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn profile"
         >
           <i class="fab fa-linkedin"></i>
         </a>
 
-        <a href="mailto:your-email@example.com">
+        <a href="mailto:ajitmene04@gmail.com" aria-label="Send an email">
           <i class="fas fa-envelope"></i>
         </a>
       </div>
     </section>
+    </main>
 
     <footer>
       <div class="container text-center">
-        <p>© 2026 Ajit Mene</p>
+        <h4 class="footer-name">AJIT MENE</h4>
+        <p class="footer-tagline">Python Developer | Data Analyst | ML Enthusiast</p>
 
-        <p>Built with ❤️ using HTML, CSS, Bootstrap & JavaScript</p>
+        <div class="footer-links">
+          <a href="https://github.com/Ajitmene" target="_blank" rel="noopener">GitHub</a>
+          <span aria-hidden="true">•</span>
+          <a href="https://www.linkedin.com/in/ajit-mene-566a18363/" target="_blank" rel="noopener">LinkedIn</a>
+          <span aria-hidden="true">•</span>
+          <a href="mailto:ajitmene04@gmail.com">Email</a>
+        </div>
+
+        <p class="mt-3">© 2026 Ajit Mene</p>
+        <p class="footer-fine-print">
+          Built with HTML, CSS, Bootstrap &amp; JavaScript ·
+          <a href="admin/index.html">Admin</a>
+        </p>
       </div>
     </footer>
 
@@ -1181,5 +1015,6 @@
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
     <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
